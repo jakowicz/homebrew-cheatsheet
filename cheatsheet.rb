@@ -6,9 +6,7 @@ class Cheatsheet < Formula
   sha256 "0081abd631025b500ccc445c31771156cec89356e94069cdb0fabf86f50aedfc"
 
   def install
-    bin.install "cheatsheet.sh"
+    bin.install_symlink "cheatsheet.sh"
     bin.install "print.sh"
-    
-    system "ln", "-s", "#{share}/cheatsheet.sh", "#{bin}/cheatsheet"
   end
 end
