@@ -2,8 +2,8 @@
 class Cheatsheet < Formula
   desc "Cheatsheets galore"
   homepage "https://github.com/jakowicz/cheatsheet"
-  url "https://github.com/jakowicz/cheatsheet/archive/v1.0.1.tar.gz"
-  sha256 "15582bd3420b899ad46632a67366c05695f6db1e0f5e12ed14d66313da21dc80"
+  url "https://github.com/jakowicz/cheatsheet/archive/v1.0.2.tar.gz"
+  sha256 "70f761b42e10f4d07165c990a05b9f30189b3a45e554d9a8f62984ff78136bca"
 
   def install
     bin.install "cheatsheet.sh"
