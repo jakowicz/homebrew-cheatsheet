@@ -7,7 +7,6 @@ class Cheatsheet < Formula
 
   def install
     bin.install_symlink "cheatsheet.sh"
-    bin.install "print.sh"
     
     system "ln", "-s", "cheatsheet.sh", "/usr/local/bin/cheatsheet"
   end
