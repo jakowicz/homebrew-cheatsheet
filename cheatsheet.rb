@@ -7,5 +7,8 @@ class Cheatsheet < Formula
 
   def install
     bin.install "cheatsheet.sh"
+    bin.install "print.sh"
+    
+    system "ln", "-s", "#{share}/cheatsheet.sh", "#{bin}/cheatsheet"
   end
 end
