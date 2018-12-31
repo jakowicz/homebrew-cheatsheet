@@ -1,4 +1,4 @@
-class Cheatsheet < Formula
+class Recent < Formula
   desc "Recent shell history"
   homepage "https://github.com/jakowicz/recent"
   url "https://github.com/jakowicz/recent/archive/v1.0.0.tar.gz"
