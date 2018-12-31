@@ -8,6 +8,10 @@ Homebrew tap for my personal shit. Some of these packages may be tailored toward
 
 I struggle to remember all the commands I need on a daily basis, so this helps me to remember. I also use [TLDR](https://github.com/tldr-pages/tldr) which is great for when learning new commands. But, this package is meant for my top picks.
 
+### Recent
+
+This tool will read your system account's ~/.zsh_history file and process it, displaying which commands you more frequently run for the program you specify.
+
 ## License
 
 MIT License
