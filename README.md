@@ -34,6 +34,18 @@ I struggle to remember all the commands I need on a daily basis, so this helps m
 
 This tool will read your system account's ~/.zsh_history file and process it, displaying which commands you more frequently run for the program you specify.
 
+## Updating a package
+
+1. Download the tar.gz file from the release of the package you are updating
+2. Generate the sha256 of the gzip
+
+```
+shasum -a 256  ~/path/to/download.tar.gz
+```
+
+3. Update the sha256 paramater for the appropriate Ruby formula class
+4. Update the url to point to the correct release version, inside the same Ruby formula class 
+
 ## License
 
 MIT License
