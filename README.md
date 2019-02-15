@@ -2,6 +2,28 @@
 
 Homebrew tap for my personal shit. Some of these packages may be tailored towards me specifically, but if that's the case and you'd like to use the package, please raise a PR.
 
+## Setup
+
+```shell
+brew tap jakowicz/tap git@github.com:jakowicz/homebrew-tap.git
+```
+
+## Use
+
+Any formulas that don't conflict with formulas in the Homebrew master formula, can be installed implicitly:
+
+```shell
+brew install recent
+brew install cheatsheet
+```
+
+Anything that does conflict simply requires prefixing with the tap namespace:
+
+```shell
+brew install jakowicz/tap/recent
+brew install jakowicz/tap/cheatsheet
+```
+
 ## Packages
 
 ### Cheatsheet
