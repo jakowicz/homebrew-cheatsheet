@@ -1,4 +1,3 @@
-
 class Cheatsheet < Formula
   desc "Cheatsheets galore"
   homepage "https://github.com/jakowicz/cheatsheet"
